@@ -1,0 +1,19 @@
+{
+  "name": "vue-tag-suggest",
+  "version": "1.0.0",
+  "description": "Vue.js tag search suggest components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaba2curry/vue-tag-suggest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaba2curry/vue-tag-suggest/issues"
+  },
+  "homepage": "https://github.com/shaba2curry/vue-tag-suggest#readme"
+}
