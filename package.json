@@ -1,20 +1,20 @@
 {
   "name": "vue-tag-suggest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shaba2curry/vue-tag-suggest"
-  },  
+  },
   "keywords": [
     "Vue",
     "Vue.js",
     "suggest"
   ],
-  "license": "MIT",  
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/shaba2curry/vue-tag-suggest/issues"
   },
-  "homepage": "https://github.com/shaba2curry/vue-tag-suggest#readme",  
+  "homepage": "https://github.com/shaba2curry/vue-tag-suggest#readme",
   "description": "Vue.js tag search suggest components",
   "main": "dist/vue-tag-suggest.umd.js",
   "module": "dist/vue-tag-suggest.esm.js",
