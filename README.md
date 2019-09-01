@@ -1,6 +1,8 @@
 # vue-tag-suggest
 Vue.js tag search suggest components
 
+#### [demo](https://shaba2curry.github.io/vue-tag-suggest/#/)
+
 This component was created as a ui components when tag regstration. The input element suggest tag name and manages the registered tags in a list.
 
 #### install
