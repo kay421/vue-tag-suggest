@@ -13,11 +13,13 @@ npm install --save vue-tag-suggest
 ```
 <!-- Some component.vue -->
 <template>
-  <vue-tag-suggest
-    v-model="inputValue"
-    :suggestList="suggestionList"
-    @updateItems="updateItems" >
-  </vue-simple-suggest>
+  <div>
+    <vue-tag-suggest
+      v-model="inputValue"
+      :suggestList="suggestionList"
+      @updateItems="updateItems">
+    </vue-tag-suggest>
+  </div>
 </template>
  
 <script>
@@ -37,7 +39,7 @@ npm install --save vue-tag-suggest
         console.log('updateItems', items)
       },
       async suggestionList() {
-          return () => ['vue','vue.js','vue-tag-suggest']
+          return ['vue','vue.js','vue-tag-suggest']
       }      
     }
   }
