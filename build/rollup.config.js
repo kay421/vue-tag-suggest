@@ -13,7 +13,9 @@ export default {
             css: true, // css を <style> タグとして注入
             compileTemplate: true, // 明示的にテンプレートを描画関数に変換
         }),
-        buble(), // ES5 へトランスパイルする
+        buble({
+          transforms: { asyncAwait: false }
+        }), // ES5 へトランスパイルする
     ],
 };
 
