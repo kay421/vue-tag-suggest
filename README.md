@@ -1,7 +1,7 @@
 # vue-tag-suggest
 Vue.js tag search suggest components
 
-#### [demo](https://shaba2curry.github.io/vue-tag-suggest/#/)
+#### [demo](https://shaba2curry.github.io/vue-tag-suggest/index.html)
 
 This component was created as a ui components when tag regstration. The input element suggest tag name and manages the registered tags in a list.
 
@@ -10,7 +10,7 @@ This component was created as a ui components when tag regstration. The input el
 npm install --save vue-tag-suggest
 ```
 
-#### example 
+#### example
 
 ```
 <!-- Some component.vue -->
@@ -23,10 +23,10 @@ npm install --save vue-tag-suggest
     </vue-tag-suggest>
   </div>
 </template>
- 
+
 <script>
   import VueTagSuggest from 'vue-tag-suggest'
-  
+
   export default {
     components: {
       VueTagSuggest,
@@ -41,9 +41,9 @@ npm install --save vue-tag-suggest
         console.log('updateItems', items)
       },
       async suggestionList() {
-          return ['vue','vue.js','vue-tag-suggest']
-      }      
+        return ['vue','vue.js','vue-tag-suggest']
+      }
     }
   }
-</script> 
+</script>
 ```
